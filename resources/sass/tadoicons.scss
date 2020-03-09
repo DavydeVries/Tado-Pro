@@ -1,0 +1,1007 @@
+@font-face {
+    font-family: tadoicons;
+    src: url(../fonts/tadoicons/tadoicons.e7e6e316.eot);
+    src: url(../fonts/tadoicons/tadoicons.e7e6e316.eot?#iefix) format("embedded-opentype"), url(../fonts/tadoicons/tadoicons.95965eb6.woff) format("woff"), url(../fonts/tadoicons/tadoicons.7ca61033.ttf) format("truetype"), url(../fonts/tadoicons/tadoicons.40e8c8ef.svg#tadoicons) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" tado-icon-"]:before, [class^=tado-icon-]:before {
+    font-family: tadoicons;
+    font-style: normal;
+    speak: none;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased
+}
+
+.tado-icon-windy:before {
+    content: "\e003"
+}
+
+.tado-icon-thunderstorms:before {
+    content: "\e004"
+}
+
+.tado-icon-sunny:before {
+    content: "\e005"
+}
+
+.tado-icon-snow:before {
+    content: "\e006"
+}
+
+.tado-icon-snow_scattered:before {
+    content: "\e007"
+}
+
+.tado-icon-rainy:before {
+    content: "\e008"
+}
+
+.tado-icon-rainy_snow:before {
+    content: "\e009"
+}
+
+.tado-icon-rainy_snow_scattered:before {
+    content: "\e00a"
+}
+
+.tado-icon-rainy_scattered:before {
+    content: "\e00b"
+}
+
+.tado-icon-rainy_hail:before {
+    content: "\e00c"
+}
+
+.tado-icon-night_cloudy:before {
+    content: "\e00d"
+}
+
+.tado-icon-night_clear:before {
+    content: "\e00e"
+}
+
+.tado-icon-hail:before {
+    content: "\e00f"
+}
+
+.tado-icon-freezing:before {
+    content: "\e010"
+}
+
+.tado-icon-foggy:before {
+    content: "\e011"
+}
+
+.tado-icon-drizzle:before {
+    content: "\e012"
+}
+
+.tado-icon-drizzle_scattered:before {
+    content: "\e013"
+}
+
+.tado-icon-cloudy:before {
+    content: "\e014"
+}
+
+.tado-icon-cloudy_partly:before {
+    content: "\e015"
+}
+
+.tado-icon-cloudy_mostly:before {
+    content: "\e016"
+}
+
+.tado-icon-sun:before {
+    content: "\e01a"
+}
+
+.tado-icon-weather-unknown:before {
+    content: "\e62d"
+}
+
+.tado-icon-users:before {
+    content: "\e017"
+}
+
+.tado-icon-tablet:before {
+    content: "\e018"
+}
+
+.tado-icon-support:before {
+    content: "\e019"
+}
+
+.tado-icon-arrow_right:before {
+    content: "\e000"
+}
+
+.tado-icon-arrow_down:before {
+    content: "\e001"
+}
+
+.tado-icon-tado_logo:before {
+    content: "\e002"
+}
+
+.tado-icon-standby:before {
+    content: "\e01b"
+}
+
+.tado-icon-smartphone:before {
+    content: "\e01c"
+}
+
+.tado-icon-sleep:before {
+    content: "\e01d"
+}
+
+.tado-icon-settings:before {
+    content: "\e01e"
+}
+
+.tado-icon-reward:before {
+    content: "\e01f"
+}
+
+.tado-icon-report:before {
+    content: "\e020"
+}
+
+.tado-icon-plus:before {
+    content: "\e021"
+}
+
+.tado-icon-person:before {
+    content: "\e023"
+}
+
+.tado-icon-noentry:before {
+    content: "\e024"
+}
+
+.tado-icon-minus:before {
+    content: "\e025"
+}
+
+.tado-icon-middle2:before {
+    content: "\e026"
+}
+
+.tado-icon-middle:before {
+    content: "\e027"
+}
+
+.tado-icon-manualoff:before {
+    content: "\e028"
+}
+
+.tado-icon-manualhome:before {
+    content: "\e029"
+}
+
+.tado-icon-lock:before {
+    content: "\e02a"
+}
+
+.tado-icon-letter:before {
+    content: "\e02b"
+}
+
+.tado-icon-leaf:before {
+    content: "\e02c"
+}
+
+.tado-icon-info:before {
+    content: "\e02d"
+}
+
+.tado-icon-home:before {
+    content: "\e02e"
+}
+
+.tado-icon-hand:before {
+    content: "\e02f"
+}
+
+.tado-icon-flame:before {
+    content: "\e030"
+}
+
+.tado-icon-coffee:before {
+    content: "\e031"
+}
+
+.tado-icon-clock:before {
+    content: "\e032"
+}
+
+.tado-icon-calendar:before {
+    content: "\e033"
+}
+
+.tado-icon-away:before {
+    content: "\e034"
+}
+
+.tado-icon-attention:before {
+    content: "\e035"
+}
+
+.tado-icon-arrow_rounded_corners:before {
+    content: "\e036"
+}
+
+.tado-icon-arrow:before {
+    content: "\e037"
+}
+
+.tado-icon-arrow_up:before {
+    content: "\e038"
+}
+
+.tado-icon-megaphone:before {
+    content: "\e039"
+}
+
+.tado-icon-attention2:before {
+    content: "\e03a"
+}
+
+.tado-icon-protected:before {
+    content: "\e03b"
+}
+
+.tado-icon-circle:before {
+    content: "\e03c"
+}
+
+.tado-icon-check:before {
+    content: "\e03d"
+}
+
+.tado-icon-arrow2_left:before {
+    content: "\e03e"
+}
+
+.tado-icon-arrow2_right:before {
+    content: "\e03f"
+}
+
+.tado-icon-arrow2_up:before {
+    content: "\e040"
+}
+
+.tado-icon-arrow2_down:before {
+    content: "\e041"
+}
+
+.tado-icon-box:before {
+    content: "\e043"
+}
+
+.tado-icon-question-mark:before {
+    content: "\e044"
+}
+
+.tado-icon-refresh:before {
+    content: "\e045"
+}
+
+.tado-icon-home-button:before {
+    content: "\e046"
+}
+
+.tado-icon-suitcase:before {
+    content: "\e047"
+}
+
+.tado-icon-no-freeze-mode:before {
+    content: "\e048"
+}
+
+.tado-icon-box-not-connected:before {
+    content: "\e049"
+}
+
+.tado-icon-standby-off:before {
+    content: "\e04a"
+}
+
+.tado-icon-sleep-scheduled:before {
+    content: "\e04b"
+}
+
+.tado-icon-home-scheduled:before {
+    content: "\e04c"
+}
+
+.tado-icon-away-scheduled:before {
+    content: "\e04d"
+}
+
+.tado-icon-scale-up:before {
+    content: "\e04e"
+}
+
+.tado-icon-wifi-ios:before {
+    content: "\e04f"
+}
+
+.tado-icon-location-ios:before {
+    content: "\e050"
+}
+
+.tado-icon-3g-ios:before {
+    content: "\e051"
+}
+
+.tado-icon-wifi-android:before {
+    content: "\e052"
+}
+
+.tado-icon-location-android:before {
+    content: "\e053"
+}
+
+.tado-icon-data-android:before {
+    content: "\e054"
+}
+
+.tado-icon-device-updating:before {
+    content: "\e055"
+}
+
+.tado-icon-refresh-reverse:before {
+    content: "\e056"
+}
+
+.tado-icon-logo-square:before {
+    content: "\e057"
+}
+
+.tado-icon-home-big:before {
+    content: "\e058"
+}
+
+.tado-icon-arrow3_up:before {
+    content: "\e059"
+}
+
+.tado-icon-arrow3_down:before {
+    content: "\e05a"
+}
+
+.tado-icon-arrow3_right:before {
+    content: "\e05b"
+}
+
+.tado-icon-person-stale:before {
+    content: "\e05c"
+}
+
+.tado-icon-person-multiple:before {
+    content: "\e05d"
+}
+
+.tado-icon-person-normal:before {
+    content: "\e05e"
+}
+
+.tado-icon-currency:before {
+    content: "\e05f"
+}
+
+.tado-icon-phone:before {
+    content: "\e060"
+}
+
+.tado-icon-person-multiple-stale:before {
+    content: "\e061"
+}
+
+.tado-icon-gonext:before {
+    content: "\e062"
+}
+
+.tado-icon-quit:before {
+    content: "\e063"
+}
+
+.tado-icon-location-generic:before {
+    content: "\e064"
+}
+
+.tado-icon-tap:before {
+    content: "\e065"
+}
+
+.tado-icon-active-temp:before {
+    content: "\e066"
+}
+
+.tado-icon-gas-meter:before {
+    content: "\e067"
+}
+
+.tado-icon-couch:before {
+    content: "\e068"
+}
+
+.tado-icon-graduation-hat:before {
+    content: "\e069"
+}
+
+.tado-icon-world:before {
+    content: "\e06a"
+}
+
+.tado-icon-offset-thermometer:before {
+    content: "\e06b"
+}
+
+.tado-icon-factory-reset:before {
+    content: "\e06c"
+}
+
+.tado-icon-fallback:before {
+    content: "\e600"
+}
+
+.tado-icon-hot-water-mode-auto:before {
+    content: "\e601"
+}
+
+.tado-icon-hot-water-mode-schedule:before {
+    content: "\e602"
+}
+
+.tado-icon-hot-water-mode-off:before {
+    content: "\e603"
+}
+
+.tado-icon-hot-water-mode-manual:before {
+    content: "\e604"
+}
+
+.tado-icon-device-no-connection-e:before {
+    content: "\e605"
+}
+
+.tado-icon-device-no-internet:before {
+    content: "\e606"
+}
+
+.tado-icon-device-no-connection-x:before {
+    content: "\e607"
+}
+
+.tado-icon-device-updating-2:before {
+    content: "\e608"
+}
+
+.tado-icon-hw-upgrade:before {
+    content: "\e609"
+}
+
+.tado-icon-preheating:before {
+    content: "\e60a"
+}
+
+.tado-icon-wrench:before {
+    content: "\e60b"
+}
+
+.tado-icon-wrench-2:before {
+    content: "\e60c"
+}
+
+.tado-icon-diagral_logo:before {
+    content: "\e60d"
+}
+
+.tado-icon-entega_logo:before {
+    content: "\e60e"
+}
+
+.tado-icon-home_serve_logo:before {
+    content: "\e610"
+}
+
+.tado-icon-sse_logo:before {
+    content: "\e611"
+}
+
+.tado-icon-book:before {
+    content: "\e612"
+}
+
+.tado-icon-sliders:before {
+    content: "\e613"
+}
+
+.tado-icon-delete:before {
+    content: "\e614"
+}
+
+.tado-icon-split:before {
+    content: "\e615"
+}
+
+.tado-icon-radiator:before {
+    content: "\e616"
+}
+
+.tado-icon-plus-thin:before {
+    content: "\e617"
+}
+
+.tado-icon-sleep-scheduled-2:before {
+    content: "\e04b"
+}
+
+.tado-icon-home-scheduled-2:before {
+    content: "\e04c"
+}
+
+.tado-icon-away-scheduled-2:before {
+    content: "\e04d"
+}
+
+.tado-icon-edit:before {
+    content: "\e618"
+}
+
+.tado-icon-ac-cool:before {
+    content: "\e619"
+}
+
+.tado-icon-ac-dry:before {
+    content: "\e61a"
+}
+
+.tado-icon-ac-fan:before {
+    content: "\e61b"
+}
+
+.tado-icon-ac-auto:before {
+    content: "\e61e"
+}
+
+.tado-icon-ac-heat:before {
+    content: "\e61c"
+}
+
+.tado-icon-ac-off:before {
+    content: "\e01b"
+}
+
+.tado-icon-schedule:before {
+    content: "\e61d"
+}
+
+.tado-icon-ac-fan-speed-low:before {
+    content: "\e620"
+}
+
+.tado-icon-ac-fan-speed-middle:before {
+    content: "\e621"
+}
+
+.tado-icon-ac-fan-speed-high:before {
+    content: "\e61f"
+}
+
+.tado-icon-swing:before {
+    content: "\e622"
+}
+
+.tado-icon-thermometer:before {
+    content: "\e623"
+}
+
+.tado-icon-home-overlay:before {
+    content: "\e624"
+}
+
+.tado-icon-sleep-overlay:before {
+    content: "\e625"
+}
+
+.tado-icon-away-overlay:before {
+    content: "\e626"
+}
+
+.tado-icon-home-scheduled-overlay:before {
+    content: "\e627"
+}
+
+.tado-icon-sleep-scheduled-overlay:before {
+    content: "\e628"
+}
+
+.tado-icon-away-scheduled-overlay:before {
+    content: "\e629"
+}
+
+.tado-icon-timer:before {
+    content: "\e62a"
+}
+
+.tado-icon-flame-2:before {
+    content: "\e62b"
+}
+
+.tado-icon-add-device:before {
+    content: "\e62e"
+}
+
+.tado-icon-always-active:before {
+    content: "\e62f"
+}
+
+.tado-icon-beta:before {
+    content: "\e630"
+}
+
+.tado-icon-feedback:before {
+    content: "\e631"
+}
+
+.tado-icon-heating-power:before {
+    content: "\e632"
+}
+
+.tado-icon-hot-water:before {
+    content: "\e633"
+}
+
+.tado-icon-hot-water-on:before {
+    content: "\e634"
+}
+
+.tado-icon-infinity:before {
+    content: "\e635"
+}
+
+.tado-icon-manual:before {
+    content: "\e636"
+}
+
+.tado-icon-mode-change:before {
+    content: "\e637"
+}
+
+.tado-icon-no-connection:before {
+    content: "\e638"
+}
+
+.tado-icon-radar:before {
+    content: "\e639"
+}
+
+.tado-icon-reset-timer:before {
+    content: "\e63a"
+}
+
+.tado-icon-smart-ac-control:before {
+    content: "\e63b"
+}
+
+.tado-icon-smart-valve:before {
+    content: "\e63c"
+}
+
+.tado-icon-smart-thermostat:before {
+    content: "\e63d"
+}
+
+.tado-icon-smart-thermostat-smart-valve:before {
+    content: "\e63e"
+}
+
+.tado-icon-timer-2:before {
+    content: "\e63f"
+}
+
+.tado-icon-zone-overview:before {
+    content: "\e640"
+}
+
+.tado-icon-hot-water-centered:before {
+    content: "\e641"
+}
+
+.tado-icon-no-location-based-control:before {
+    content: "\e642"
+}
+
+.tado-icon-go-left:before {
+    content: "\e643"
+}
+
+.tado-icon-go-right:before {
+    content: "\e644"
+}
+
+.tado-icon-thumbup:before {
+    content: "\e645"
+}
+
+.tado-icon-thumbup-clear:before {
+    content: "\e646"
+}
+
+.tado-icon-thumbdown:before {
+    content: "\e647"
+}
+
+.tado-icon-thumbdown-clear:before {
+    content: "\e648"
+}
+
+.tado-icon-mobile-devices:before {
+    content: "\e649"
+}
+
+.tado-icon-sign-out:before {
+    content: "\e64a"
+}
+
+.tado-icon-ST:before {
+    content: "\e64b"
+}
+
+.tado-icon-SACC:before {
+    content: "\e64c"
+}
+
+.tado-icon-SRV:before {
+    content: "\e64d"
+}
+
+.tado-icon-ST_SRV:before {
+    content: "\e64e"
+}
+
+.tado-icon-SRV_SRV:before {
+    content: "\e64f"
+}
+
+.tado-icon-pause:before {
+    content: "\e650"
+}
+
+.tado-icon-close:before {
+    content: "\e651"
+}
+
+.tado-icon-installer:before {
+    content: "\e652"
+}
+
+.tado-icon-installation-instructions:before {
+    content: "\e653"
+}
+
+.tado-icon-connect-devices:before {
+    content: "\e654"
+}
+
+.tado-icon-BU:before {
+    content: "\e655"
+}
+
+.tado-icon-ST-OLD:before {
+    content: "\e656"
+}
+
+.tado-icon-TS:before {
+    content: "\e657"
+}
+
+.tado-icon-fuel:before {
+    content: "\e658"
+}
+
+.tado-icon-cart:before {
+    content: "\e659"
+}
+
+.tado-icon-menu:before {
+    content: "\e65a"
+}
+
+.tado-icon-open-window:before {
+    content: "\e65b"
+}
+
+.tado-icon-heat-request:before {
+    content: "\e65c"
+}
+
+.tado-icon-report-sunshine:before {
+    content: "\e65d"
+}
+
+.tado-icon-referral:before {
+    content: "\e65e"
+}
+
+.tado-icon-humidity:before {
+    content: "\e65f"
+}
+
+.tado-icon-ac-fan-speed:before {
+    content: "\e660"
+}
+
+.tado-icon-home-area:before {
+    content: "\e661"
+}
+
+.tado-icon-house:before {
+    content: "\e662"
+}
+
+.tado-icon-location-based-control:before {
+    content: "\e663"
+}
+
+.tado-icon-pinch:before {
+    content: "\e664"
+}
+
+.tado-icon-reset:before {
+    content: "\e665"
+}
+
+.tado-icon-ac-notification:before {
+    content: "\e666"
+}
+
+.tado-icon-consultation:before {
+    content: "\e667"
+}
+
+.tado-icon-demo-menu:before {
+    content: "\e668"
+}
+
+.tado-icon-exit:before {
+    content: "\e669"
+}
+
+.tado-icon-learn-more:before {
+    content: "\e66a"
+}
+
+.tado-icon-product-finder:before {
+    content: "\e66b"
+}
+
+.tado-icon-energy-savings:before {
+    content: "\e66c"
+}
+
+.tado-icon-repair:before {
+    content: "\e66d"
+}
+
+.tado-icon-units:before {
+    content: "\e66e"
+}
+
+.tado-icon-low-battery:before {
+    content: "\e66f"
+}
+
+.tado-icon-full-battery:before {
+    content: "\e670"
+}
+
+.tado-icon-connected:before {
+    content: "\e671"
+}
+
+.tado-icon-devices:before {
+    content: "\e672"
+}
+
+.tado-icon-pairing-active:before {
+    content: "\e673"
+}
+
+.tado-icon-viessmann_logo:before {
+    content: "\e674"
+}
+
+.tado-icon-skill-based-app-sacc:before {
+    content: "\e90d"
+}
+
+.tado-icon-skill-based-app-st:before {
+    content: "\e906"
+}
+
+.tado-icon-skill-based-app-stsrt:before {
+    content: "\e904"
+}
+
+.tado-icon-skill-based-app-srt:before {
+    content: "\e908"
+}
+
+.tado-icon-skill-based-app-srts:before {
+    content: "\e90a"
+}
+
+.tado-icon-skill-based-app-geofencing:before {
+    content: "\e909"
+}
+
+.tado-icon-skill-based-app-homedetails:before {
+    content: "\e90f"
+}
+
+.tado-icon-skill-based-app-people:before {
+    content: "\e90e"
+}
+
+.tado-icon-skill-based-app-devices:before {
+    content: "\e90c"
+}
+
+.tado-icon-skill-based-app-account:before {
+    content: "\e903"
+}
+
+.tado-icon-skill-based-app-feedback:before {
+    content: "\e910"
+}
+
+.tado-icon-skill-based-app-helpcenter:before {
+    content: "\e91a"
+}
+
+.tado-icon-skill-based-app-referral:before {
+    content: "\e914"
+}
+
+.tado-icon-skill-based-app-hot-water:before {
+    content: "\e905"
+}
+
+.tado-icon-skill-based-app-info:before {
+    content: "\e919"
+}
+
+.tado-icon-remote-maintenance:before {
+    content: "\e921"
+}
+
+.tado-icon-community:before {
+    content: "\e922"
+}
+
+.tado-icon-skill-based-app-community:before {
+    content: "\e923"
+}
+
+.tado-icon-boiler:before {
+    content: "\e924"
+}
+
+@font-face {
+    font-family: tadoicons-thin;
+    src: url(../fonts/tadoicons-thin/tadoicons-thin.be01c982.eot);
+    src: url(../fonts/tadoicons-thin/tadoicons-thin.be01c982.eot?#iefix) format("embedded-opentype"), url(../fonts/tadoicons-thin/tadoicons-thin.7b1cbaaf.woff) format("woff"), url(../fonts/tadoicons-thin/tadoicons-thin.b46abfd1.ttf) format("truetype"), url(../fonts/tadoicons-thin/tadoicons-thin.d77e9320.svg#tadoicons) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" tado-icon-"].thin:before, [class^=tado-icon-].thin:before {
+    font-family: tadoicons-thin
+}
