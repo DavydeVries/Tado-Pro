@@ -15,12 +15,34 @@ class ZonesController extends BaseController
     {
         $client = new Client();
 
-        $userRequest = $client->get('https://my.tado.com/api/v2/homes/'.$this->homeId.'/zones', [
+        $userRequest = $client->get('https://my.tado.com/api/v2/homes/' . $this->homeId . '/zones', [
             'headers' => [
                 'Authorization' => 'Bearer ' . $this->accessToken,
             ],
         ]);
 
-        dump($userRequest->getBody()->getContents());
+        $zones = collect(json_decode($userRequest->getBody()->getContents(), true));
+
+        // TODO: support all types like air conditioning's
+        $zones = $zones->filter(function ($value, $key) {
+            return data_get($value, 'type') === 'HEATING';
+        })->all();
+
+        return response()->json($zones);
+    }
+
+    public function get($zoneId)
+    {
+        $client = new Client();
+
+        $userRequest = $client->get('https://my.tado.com/api/v2/homes/' . $this->homeId . '/zones/' . $zoneId . '/state', [
+            'headers' => [
+                'Authorization' => 'Bearer ' . $this->accessToken,
+            ],
+        ]);
+
+        $zone = collect(json_decode($userRequest->getBody()->getContents(), true));
+
+        return response()->json($zone);
     }
 }

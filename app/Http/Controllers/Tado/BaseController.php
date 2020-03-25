@@ -99,6 +99,6 @@ class BaseController extends Controller
 //            abort('401', '');
 //        }
 
-        return response()->json();
+        return response()->json(['unit' => config('tado.unit')]);
     }
 }

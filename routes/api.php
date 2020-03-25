@@ -16,4 +16,5 @@ use Illuminate\Http\Request;
 Route::group(['prefix' => 'tado'], function () {
     Route::get('/setup_check', 'Tado\BaseController@setupCheck');
     Route::get('/zones', 'Tado\ZonesController@index');
+    Route::get('/zones/{id}', 'Tado\ZonesController@get');
 });
