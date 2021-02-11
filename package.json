@@ -23,7 +23,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "apexcharts": "^3.16.0",
+        "apexcharts": "^3.24.0",
         "debounce": "^1.2.0",
         "moment": "latest",
         "tailwindcss": "v1.2.0",
